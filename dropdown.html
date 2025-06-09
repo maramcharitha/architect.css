@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown{
+            display:none;
+        }
+        .child{
+            display:none;
+        }
+        .child1{
+            display:none;
+        }
+        .child2{
+            display:none;
+        }
+        .parent {
+            background-color: crimson;
+            height:20px;
+            padding:10px;
+            
+        }
+    
+        .dropdown1:hover .child{
+           display:block
+           
+        }
+        .dropdown2:hover .child1{
+            display:block;
+        }
+        .dropdown3:hover .child2{
+            display:block;
+        }
+        .dropdown .dropdown1 .dropdown2 .dropdown3 a:hover{
+            background-color: #add;
+            
+        }
+        .dropdown,.dropdown1,.dropdown2,.dropdown3{
+            display:inline-block;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="parent">
+    <div class="dropdown">
+    <a style="color:white" class="item1" href="#">HOME</a></div>
+        <div class="dropdown1">
+    <a style="color:white" class="item2" href="#">TUTORIALS</a>
+    <div class="child">
+        <p>HTML</p>
+        <P>CSS</P>
+        <P>JAVASCRIPT</P>
+        <P>PYTHON</P></div></div>
+        <div class="dropdown2">
+    <a style="color:white"class="item3" href="#">ABOUT</a>
+    <div class="child1">
+    <p>live classes</p>
+    <p>recorder classes</p></div></div>
+    <div class="dropdown3">
+    <a style="color:white" class="item4" href="#"> CONTACT US</a>
+    <div class="child2">
+        <p>instagram</p>
+        <p>facebook</p>
+        <p>what's app</p></div></div>
+        </div>
+    </nav>
+</body>
+</html>

@@ -72,16 +72,27 @@
             
     .item2,.item3,.item4,.item5
     {
-        display:inline-block;
-        
-    }
+        display:inline-block;}
+
+        @media  screen and (min-width:320px) and (max-width:425px) {
+           .container> .item2,.item3,.item4,.item5{
+                      display:block;
+}    
+}
+    
     .item6,.item7,.item8,.item9{
         display:inline-block;
     }
+
+        @media  screen and (min-width:320px) and (max-width:425px) {
+           .container1> .item6,.item7,.item8,.item9{
+                      display:block;}}
 .item10,.item11,.item12,.item13{
     display:inline-block;
 }
-
+@media  screen and (min-width:320px) and (max-width:425px) {
+           .container1> .item10,.item11,.item12,.item13{
+                      display:block;}}
     </style>
 </head>
 <body>
@@ -93,8 +104,8 @@
     <a href="#projects">Projects</a>
     <a href="#About">About</a>
     <a href="#contacts">Contacts</a></div></div>
-    <div>
-    <img src="https://www.w3schools.com/w3images/architect.jpg" alt="img">
+    <div class="image">
+    <img src="https://www.w3schools.com/w3images/architect.jpg" alt="img" height="600" width="650">
     <h1><span style="background-color: black;"> BR </span>ARCHITECTS</h1></div>
     <div class="container">
         <div class="item2">
