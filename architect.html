@@ -69,10 +69,24 @@
                 padding: top 20px;
                 padding-left: 20px;
             }
-            
+            .image{
+                padding-left: 45px;
+                position:relative;
+            }
+            @media  screen and (min-width:320px) and (max-width:425px) {
+            .image{
+                display:block;
+            }
+            .image> .img{
+                height:250px;
+                width:250px;
+            }
+            }     
     .item2,.item3,.item4,.item5
     {
-        display:inline-block;}
+        display:inline-block;
+        padding-left: 45px;
+    }
 
         @media  screen and (min-width:320px) and (max-width:425px) {
            .container> .item2,.item3,.item4,.item5{
@@ -82,6 +96,7 @@
     
     .item6,.item7,.item8,.item9{
         display:inline-block;
+        padding-left: 45px;
     }
 
         @media  screen and (min-width:320px) and (max-width:425px) {
@@ -90,6 +105,7 @@
                     }
 .item10,.item11,.item12,.item13{
     display:inline-block;
+    padding-left: 45px;
 }
 @media  screen and (min-width:320px) and (max-width:425px) {
            .container1> .item10,.item11,.item12,.item13{
@@ -106,42 +122,42 @@
     <a href="#projects">Projects</a>
     <a href="#About">About</a>
     <a href="#contacts">Contacts</a></div></div>
-    <div>
+    <div class="image">
     <img src="https://www.w3schools.com/w3images/architect.jpg" alt="img">
     <h1><span style="background-color: black;"> BR </span>ARCHITECTS</h1></div>
     <div class="container">
         <div class="item2">
-        <img src="https://www.w3schools.com/w3images/house5.jpg" alt="img" height="200" width="250">
+        <img src="https://www.w3schools.com/w3images/house5.jpg" alt="img" height="250" width="250">
         <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Summer House</p></span>
     </div>   
     <div class="item3">
-        <img src="https://www.w3schools.com/w3images/house2.jpg" alt="img" height="200" width="250">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" alt="img" height="250" width="250">
          <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Brick House</p></span>
     </div>
     <div class="item4">
-        <img src="https://www.w3schools.com/w3images/house3.jpg" alt="img" height="200" width="250">
+        <img src="https://www.w3schools.com/w3images/house3.jpg" alt="img" height="250" width="250">
          <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Renovated House</p></span>
     </div>
     <div class="item5">
-        <img src="https://www.w3schools.com/w3images/house4.jpg" alt="img" height="200" width="250">
+        <img src="https://www.w3schools.com/w3images/house4.jpg" alt="img" height="250" width="250">
          <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Barn House</p></span>
     </div>
     </div>
     <div class="container1">
         <div class="item6">
-            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="img" height="200" width="250">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="img" height="250" width="250">
              <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Summer House</p></span>
         </div>
         <div class="item7">
-            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="img" height="200" width="250">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="img" height="250" width="250">
              <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Brick House</p></span>
         </div>
         <div class="item8">
-            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="img" height="200" width="250">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="img" height="250" width="250">
              <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Renovated House</p></span>
         </div>
         <div class="item9">
-            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="img" height="200" width="250">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="img" height="250" width="250">
              <p ><span style="position: relative; left: 35px; bottom: 220px; background: black; color: white;">Barn House</p></span>
         </div>
     </div>
@@ -149,13 +165,13 @@
     <h2>ABOUT</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div class="item10">
-    <img src="https://www.w3schools.com/w3images/team2.jpg" alt="img" height="200" width="250"> <h3>JOHN DOE</h3><P>CEO&FOUNDER</P><p>Phasellus eget enim eu <br> lectus faucibus vestibulum.<br> Suspendisse sodales<br> pellentesque elementum.</p><button>CONTACT</button></div>
+    <img src="https://www.w3schools.com/w3images/team2.jpg" alt="img" height="250" width="250"> <h3>JOHN DOE</h3><P>CEO&FOUNDER</P><p>Phasellus eget enim eu <br> lectus faucibus vestibulum.<br> Suspendisse sodales<br> pellentesque elementum.</p><button>CONTACT</button></div>
     <div class="item11">
-    <img src="https://www.w3schools.com/w3images/team1.jpg" alt="img" height="200" width="250"><h3>JOHE DOE</h3><p>ARCHITECT</p><p>Phasellus eget enim eu <br>lectus faucibus vestibulum.<br> Suspendisse sodales <br>pellentesque elementum.</p><button>CONTACT</button></div>
+    <img src="https://www.w3schools.com/w3images/team1.jpg" alt="img" height="250" width="250"><h3>JOHE DOE</h3><p>ARCHITECT</p><p>Phasellus eget enim eu <br>lectus faucibus vestibulum.<br> Suspendisse sodales <br>pellentesque elementum.</p><button>CONTACT</button></div>
     <div class="item12">
-    <img src="https://www.w3schools.com/w3images/team3.jpg" alt="img" height="200" width="250"><h3>MIKE ROSS</h3><p>ARCHITECT</p><p>Phasellus eget enim eu <br>lectus faucibus vestibulum. <br>Suspendisse sodales <br>pellentesque elementum.</p><button>CONTACT</button></div>
+    <img src="https://www.w3schools.com/w3images/team3.jpg" alt="img" height="250" width="250"><h3>MIKE ROSS</h3><p>ARCHITECT</p><p>Phasellus eget enim eu <br>lectus faucibus vestibulum. <br>Suspendisse sodales <br>pellentesque elementum.</p><button>CONTACT</button></div>
     <div class="item13">
-    <img src="https://www.w3schools.com/w3images/team4.jpg" alt="img" height="200" width="250"><h3>DAN STAR</h3><p>ARCHITECT</p><p>Phasellus eget enim eu <br>lectus faucibus vestibulum.<br> Suspendisse sodales <br>pellentesque elementum.</p><button>CONTACT</button></div></div>
+    <img src="https://www.w3schools.com/w3images/team4.jpg" alt="img" height="250" width="250"><h3>DAN STAR</h3><p>ARCHITECT</p><p>Phasellus eget enim eu <br>lectus faucibus vestibulum.<br> Suspendisse sodales <br>pellentesque elementum.</p><button>CONTACT</button></div></div>
     <h2>CONTACTS</h2>
     <forms>
 <pre>
